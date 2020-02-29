@@ -10,7 +10,12 @@
    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'>
 </head>
 <body>
+     
+     @include('layouts.partials._nav')
+
      @yield('content')
+
+     @include('layouts.partials._footer')
 
 
      <!-- Latest compiled and minified JavaScript -->
